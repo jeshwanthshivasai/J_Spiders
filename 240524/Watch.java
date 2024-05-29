@@ -1,0 +1,3 @@
+class Watch extends ElectricalDevices {
+	
+}

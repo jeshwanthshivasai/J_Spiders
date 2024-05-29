@@ -1,0 +1,2 @@
+class Smartphone extends ElectricalDevices {
+}
