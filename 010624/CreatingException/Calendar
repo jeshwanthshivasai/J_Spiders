@@ -1,0 +1,10 @@
+public class Calendar {
+    public int monthNumber;
+    public void displayMonthNumber(int monthNumber) {
+        if (monthNumber <= 12 && monthNumber > 0) {
+            System.out.println("monthNumber: " + monthNumber);
+        } else {
+            throw new InvalidMonthNumberException("There are only 12 months");
+        }
+    }
+}
