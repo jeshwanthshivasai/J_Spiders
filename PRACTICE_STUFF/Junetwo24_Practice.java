@@ -141,7 +141,7 @@ public class Junetwo24_Practice {
 		try 
 		{
 			divide();
-		} 
+		}
 		catch (Exception e) 
 		{
 			System.err.println("Exception: Handled man!");
