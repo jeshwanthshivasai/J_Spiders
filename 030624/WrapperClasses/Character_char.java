@@ -2,16 +2,16 @@ package WrapperClasses;
 
 /*public class Character_char {
 	public static void main(String[] args) {
-		int num = 10;
-		Integer  i = num;
-		System.out.println(i);
+		char ch = 'a';
+		Character c = ch;
+		System.out.println(c);
 	}
 }*/
 
 public class Character_char {
 	public static void main(String[] args) {
-		Integer i = 10;
-		int num = i;
-		System.out.println(num);
+		Character c = 'a';
+		char ch = c;
+		System.out.println(ch);
 	}
 }

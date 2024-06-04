@@ -19,3 +19,8 @@ public class ArrayListProgram {
 		System.out.println(list);
 	}
 }
+
+/*public class ArrayListProgram {
+	public static void main(String[] args) {
+		ArrayList<E> <Character> list = new ArrayList<Character>();
+		list.lastIndexOf(list)*/
