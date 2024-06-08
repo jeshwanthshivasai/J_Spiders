@@ -1,9 +1,0 @@
-class Tiger implements Animal{
-public static void noise(){
-	System.out.println("Tiger noise");
-}
-public static void eat(){
-	System.out.println("Tiger eats");
-}
-
-}

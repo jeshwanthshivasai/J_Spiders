@@ -1,8 +1,0 @@
-class Lion implements Animal{
-public static void noise(){
-	System.out.println("lion noise");
-}
-public static void eat(){
-	System.out.println("lion eats");
-}
-}
