@@ -1,3 +1,0 @@
-interface Run {
-	final public void run();
-}

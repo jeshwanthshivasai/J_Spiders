@@ -1,5 +1,0 @@
-class Run1 implements Run {
-	 public void run() {
-	System.out.println("Run for 5km");
-	}
-}
