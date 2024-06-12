@@ -1,2 +1,0 @@
-class Telivision extends ElectricalDevices {
-}
