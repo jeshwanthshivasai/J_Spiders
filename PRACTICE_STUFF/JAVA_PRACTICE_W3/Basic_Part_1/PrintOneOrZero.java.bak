@@ -1,0 +1,15 @@
+package JAVA_PRACTICE_W3.Basic_Part_1;
+
+import java.util.Scanner;
+
+public class PrintOneOrZero {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int check = sc.nextInt();
+		if(check%2 == 0) {
+			System.out.println(1);
+		} else {
+			System.out.println(0);
+		}
+	}
+}
