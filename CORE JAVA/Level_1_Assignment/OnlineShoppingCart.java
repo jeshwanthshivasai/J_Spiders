@@ -11,9 +11,9 @@ public class OnlineShoppingCart {
     }
     public void checkout() {
         System.out.println("Checked Out");
-        OnlineShoppingCart cart = new OnlineShoppingCart();
-        cart.addItem();
-        cart.removeItem();
+//        OnlineShoppingCart cart = new OnlineShoppingCart();
+        addItem();
+        removeItem();
         generateInvoice();
     }
     public static void calculateTotal() {
