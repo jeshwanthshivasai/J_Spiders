@@ -5,16 +5,18 @@ public class StrongNumber
         int num = 145;
         int temp = num;
         int sum = 0;
-        int fact = 0;
+        
 
         while (temp != 0) 
         {
             int ld = temp % 10;
             for(int i=1; i <= ld; i++) 
             {
+                int fact = 0;
                 fact = fact * i;
+                
             }
-            sum = sum + i;
+            sum = sum + ld;
             temp = temp / 10;
         }
         
