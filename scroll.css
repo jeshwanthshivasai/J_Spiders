@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    overflow: hidden;
+}
+#container{
+    width: 300vw;
+    height: 20vw;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    animation: scrollContainer 20s linear alternate infinite;
+}
+.containerblocks{
+    width: 15vw;
+    height: 15vw;
+    background-image: linear-gradient(45deg, orange,yellow);
+}
+#viewportFixed{
+    width: 100vw;
+    height: 20vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: white;
+}
+#viewportFixed::-webkit-scrollbar {
+    display: none;
+}
+@keyframes scrollContainer {
+    from{
+        transform: translate(0vw,0vw);
+    }
+    to{
+        transform: translate(-200vw,0vw);
+    }
+}
