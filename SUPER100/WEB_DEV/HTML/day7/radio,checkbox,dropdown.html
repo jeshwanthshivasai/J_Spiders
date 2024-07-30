@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio, CheckBox, Dropdown</title>
+</head>
+<body>
+    <form action="">
+        <label for="food"> Select Food Item from the Menu</label>
+        <select name="food" id="food">
+            <option value="Idli"></option>
+            <option value="Wada"></option>
+        </select>
+        
+        <br>
+        <input type="Submit"/>
+        <br>
+        <label for="col">Colors</label>
+        <input list="col1" id="col" name="colors">
+        <datalist id="col1">
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+            <option value="green">green</option>
+            <option value="yellow">yellow</option>
+        </datalist>
+        <input type="submit">
+        <br>
+        <body>
+            <form action="">
+                <label for="uname">username</label>
+                <input type="text" id="uname" name="uname" placeholder="only characters" autofocus required>
+                <br>
+                <label for="psw">Password</label>
+                <input type="email" name="email" id="psw" required>
+                <br>
+                <button>Confirm</button>
+            </form>
+        </body>
+    </form>
+</body>
+</html>
