@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="" method="get" name="registrationForm" id="registrationForm" autocomplete="on" novalidate>
+        <table>
+            <tr>
+                <td><label for="first_name">First Name :</label></td>
+                <td><input type="text" id="first_name" name="first_name" placeholder="Enter first name" required></td>
+            </tr>
+            <tr>
+                <td><label for="last_name">Last Name :</label></td>
+                <td><input type="text" id="last_name" name="last_name" placeholder="Enter last name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email :</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Enter Email address" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password :</label></td>
+                <td><input type="password" id="password" name="password" placeholder="Enter your password" required></td>
+            </tr>
+            <tr>
+                <td><label>Gender :</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="age">Age :</label></td>
+                <td>
+                    <select id="age" name="age">
+                        <option value="under_18">Under 18</option>
+                        <option value="18_24">18-24</option>
+                        <option value="25_34">25-34</option>
+                        <option value="35_44">35-44</option>
+                        <option value="45_54">45-54</option>
+                        <option value="55_64">55-64</option>
+                        <option value="65_plus">65+</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Preferences :</td>
+                <td>
+                    <input type="checkbox" id="acrylic" name="preferences" value="acrylic">
+                    <label for="acrylic">Acrylic Painting</label><br>
+                    <input type="checkbox" id="oil" name="preferences" value="oil">
+                    <label for="oil">Oil Painting</label><br>
+                    <input type="checkbox" id="watercolor" name="preferences" value="watercolor">
+                    <label for="watercolor">Water Color Painting</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="occupation">Select Occupation :</label></td>
+                <td>
+                    <select id="occupation" name="occupation">
+                        <option value="student">Student</option>
+                        <option value="employed">Employed</option>
+                        <option value="self_employed">Self-Employed</option>
+                        <option value="unemployed">Unemployed</option>
+                        <option value="retired">Retired</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="bio">Bio :</label></td>
+                <td><textarea id="bio" name="bio" ></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset" value="RESET">
+                    <input type="submit" value="SUBMIT">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

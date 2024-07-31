@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 5</title>
+</head>
+<body>
+    <h2>Sign up</h2>
+    <form action="" method="get" name="signupForm" id="signupForm" autocomplete="on" novalidate>
+        <table>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" placeholder="full name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">email:</label></td>
+                <td><input type="email" id="email" name="email" placeholder="gmail id" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" placeholder="8 characters" required></td>
+            </tr>
+            <tr>
+                <td><label for="confirm_password">Confirm Password:</label></td>
+                <td><input type="password" id="confirm_password" name="confirm_password" placeholder="8 characters" required></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date Of Birth:</label></td>
+                <td><input type="date" id="dob" name="dob" placeholder="dd/mm/yyyy" required></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="photo">Insert your photo:</label></td>
+                <td><input type="file" id="photo" name="photo" required></td>
+            </tr>
+            <tr>
+                <td><label for="resume">Insert your resume:</label></td>
+                <td><input type="file" id="resume" name="resume" required></td>
+            </tr>
+            <tr>
+                <td><label for="security_question">Security Question:</label></td>
+                <td>
+                    <select id="security_question" name="security_question" required>
+                        <option value="" disabled selected>Select</option>
+                        <option value="mother_maiden_name">What is your mother's maiden name?</option>
+                        <option value="first_pet">What was the name of your first pet?</option>
+                        <option value="first_school">What was the name of your first school?</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="bio">Bio:</label></td>
+                <td><textarea id="bio" name="bio" required></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the terms and conditions</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Register">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

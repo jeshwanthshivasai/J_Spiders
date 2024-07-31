@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 3</title>
+</head>
+<body>
+    <fieldset>
+        <legend><h2>Employee Details</h2></legend>
+        <form action="" method="get">
+            <table>
+                <tr>
+                    <th><label for="uName">First Name</label></th>
+                    <td><input type="text" id="uName" name="name" placeholder="Enter First Name" required></td>
+                </tr>
+                <tr>
+                    <th><label for="uLName">Last Name</label></th>
+                    <td><input type="text" id="uLName" name="l_name" placeholder="Enter Last Name" required></td>
+                </tr>
+                <tr>
+                    <th><label for="uGender">Gender</label></th>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="EName">Employee ID</label></th>
+                    <td><input type="text" id="EName" name="id" placeholder="Enter Employee ID" required></td>
+                </tr>
+                <tr>
+                    <th><label for="desig">Designation</label></th>
+                    <td><input type="text" id="desig" name="designation" placeholder="Enter Designation" required></td>
+                </tr>
+                <tr>
+                    <th><label for="EPno">Phone number</label></th>
+                    <td><input type="tel" id="EPno" name="number" placeholder="Enter Phone Number" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>
