@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: url('https://e0.pxfuel.com/wallpapers/810/97/desktop-wallpaper-himalaya-tag-himalaya-nepal-sunrise-mountains-nature-himalayas.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 300px;
+}
+
+.login {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.login h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.login input[type="text"]{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login button {
+    background-color: #FF6F61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.login button:hover {
+    background-color: #ff4f3d;
+}
+
+.login.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.login.socials button {
+    background-color: #3b5998;
+    margin: 0 10px;
+    flex: 1;
+    padding: 10px 0;
+}
+
+.login.socials button.twitter {
+    background-color: #1da1f2;
+}
+
+.login.rememberme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login.rememberme label {
+    display: flex;
+    align-items: center;
+}
+
+.login.rememberme input {
+    margin-right: 5px;
+}

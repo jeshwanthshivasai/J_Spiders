@@ -1,10 +1,11 @@
-
 body {
     background-color: #eaeff1;
-    background-image: url('https://images.unsplash.com/photo-1722525901811-d838723349ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTd8fHxlbnwwfHx8fHw%3D');
-    background-size: auto;
+    background-image: url('https://i0.wp.com/elevenpdx.com/wp-content/uploads/2015/12/Odesza.jpg?fit=930%2C465&ssl=1');
+    background-size: cover;
     background-position: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    z-index: 1;
 }
 
 body::before {
@@ -17,34 +18,8 @@ body::before {
     background-image: inherit;
     background-size: cover;
     background-position: center;
-    filter: blur(10px); /* Adjust the blur amount as needed */
+    filter: 10%;
     z-index: -1;
-}
-header {
-    background-color: #f0b07c;
-    padding: 10px;
-    text-align: center;
-    color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-footer {
-    background-color: #f0b07c;
-    padding: 10px;
-    text-align: center;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    font-size: 18px;
-    font-weight: 400;
 }
 
 img {
@@ -65,7 +40,7 @@ img {
 /* styling the card */
 .card {
     background-color: white;
-    border: 2px solid #f0b07c;
+    border: 2px solid #a5a3a2;
     padding: 8px;
     border-radius: 12px;
     margin: 10 10 10 10;
@@ -74,11 +49,11 @@ img {
 /* Styling div elements having class = tag */
 .tag {
     padding: 4px 8px;
-    border: 1px solid #f0b07c;
+    border: 1px solid #a5a3a2;
     border-radius: 50px;
     font-size: 12px;
     font-weight: 600;
-    color: #814e0b;
+    color: #a5a3a2;
     cursor: grab;
 }
 /* Styling div elements having class = name */
@@ -90,7 +65,7 @@ img {
 /* Styling p element */
 p {
     font-size: 14px;
-    color: #814e0b;
+    color: #ffffff;
     font-weight: 300;
     line-height: 150%;
 }
@@ -101,8 +76,8 @@ button {
     border-radius: 50px;
 
     font-weight: 600;
-    color: #814e0b;
-    background-color: #f0b07c;
+    color: #ffffff;
+    background-color: #a5a3a2;
 
     margin: 0 auto;
     display: block;
@@ -114,6 +89,6 @@ button {
 }
 button:focus,
 button:hover {
-    background-color: #814e0b;
+    background-color: #a5a3a2;
     color: #e0efff;
 }
