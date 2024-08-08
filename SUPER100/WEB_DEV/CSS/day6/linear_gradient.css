@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#netflix {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(0, 0, 0)),url("https://assets.nflxext.com/ffe/siteui/vlv3/b2c3e95b-b7b5-4bb7-a883-f4bfc7472fb7/19fc1a4c-82db-4481-ad08-3a1dffbb8c39/IN-en-20240805-POP_SIGNUP_TWO_WEEKS-perspective_WEB_24a485f6-1820-42be-9b60-1b066f1eb869_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+#h1 {
+   color: red;
+   text-align: center;
+   padding-top: 200px;
+   font-size: 200px;
+   text-shadow: 10px 0px 5px black  ;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.shadowtext1{
+    color: rebeccapurple;
+    text-shadow: 5px 0px 1px black ;
+}
+.shadowtext2{
+    color: blue;
+    text-shadow: 5px 0px 1px black ;
+
+}
+.shadowtext3{
+    color: yellow;
+    text-shadow: 5px 0px 1px black ;
+}

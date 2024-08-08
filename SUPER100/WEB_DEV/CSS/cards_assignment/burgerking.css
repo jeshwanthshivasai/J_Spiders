@@ -1,0 +1,25 @@
+.card{
+    width: 500px;
+    position: relative;
+}
+img{
+    width: 100%;
+    border-radius:10px 10px 0 0;
+}
+p {
+    border-bottom: 10px;
+}
+.card button{
+    border:solid rgb(80, 35, 20);
+    color:rgb(80, 35, 20);
+    background-color: white;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}

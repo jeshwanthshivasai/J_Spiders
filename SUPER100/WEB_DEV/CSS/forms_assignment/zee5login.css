@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main
+{
+    height: 100vh;
+    border: solid;
+    background-color: black;
+}
+#form{
+    height: 500px;
+    border: solid;
+    width: 390px;
+    margin: 150px auto ;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#part1
+{
+    height: 200px;
+   
+}
+#part2
+{
+    height: 245px;
+    
+}
+
+img[alt="google"]{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+img[alt="facebook"]{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+img[alt="twitter"]{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+/* img[alt="apple"]{
+    margin-left: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+} */
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#b1{
+    margin-left: 100px;
+}
+#p1{
+    margin-top: 20px;
+    padding-left: 60px;
+}
+p{
+    padding-left: 35px;
+}
+
+#email{
+    margin-top: 40px;
+    margin-left: 35px;
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    border: rgb(98, 94, 94) solid 1px;
+    
+}
+
+.check{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+#a1{
+   
+    color: #A785ff;
+}
+#a2{
+    margin-left: 80px;
+    color: #A785ff;
+}
+
+#submit{
+    margin-top: 20px;
+    margin-left: 37px;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #A785ff;
+    color: #ffffff80;
+    display:block;
+    
+}
+
+#a3{
+    color: #A785ff;
+}
