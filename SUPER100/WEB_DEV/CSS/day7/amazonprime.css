@@ -57,7 +57,7 @@ a[id="user"]{
    
     height: 550px;
     border: solid black;
-    background-image: url(../../assets/MLP.jpg);
+    background-image: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -89,7 +89,7 @@ input[value="sing in to join prime"]
 #div3{
   
     height: 600px;
-    background-image: url(../../assets/amazon2.jpg);
+    background-image: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
     background-size: cover;
 }
 
