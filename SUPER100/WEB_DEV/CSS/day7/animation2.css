@@ -10,10 +10,10 @@
     from{
         transform: translateX(-10vh);
     }
-    to{
+    to
+    {
         transform: translateX(200vh);
     }
-    
 }
 .dog img{
     width: 1000px;
