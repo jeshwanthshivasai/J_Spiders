@@ -3,9 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
-.navbar {
-    position: relative;
+/* li {
+    margin: auto;
+    display: inline-block;
     width: 100%;
-    height: 100vh;
     background-color: #f1f1f1;
+}
+.navbar2 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+} */
+ul{
+   background-color: aqua;
+   height: 40px;
+   width: 100%;
+}
+li{
+   display: inline-block;
+   margin-right:50px;
+   margin-top: 10px;
+   margin-left: 20px;
+}
+#first{
+   position: fixed;
+}
+#second{
+   top: 0;
+   position: sticky;
+   background-color: blue;
+}
+#third{
+    top: 0;
+    position: static;
+    background-color: rgb(0, 255, 55);
 }
