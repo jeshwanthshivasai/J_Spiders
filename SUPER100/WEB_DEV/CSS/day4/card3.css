@@ -1,0 +1,23 @@
+.container{
+    border: solid black;
+    height: 350px;
+    width: 250px;
+}
+.card1>img{
+     
+    height: 250px;
+    width: 220px;
+    margin-top: 25px;
+    margin-left: 11px;
+
+}
+.card2>p{
+    border: solid green;
+    height: 50px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 45px;
+}
+p{
+    margin-left:80px;
+}

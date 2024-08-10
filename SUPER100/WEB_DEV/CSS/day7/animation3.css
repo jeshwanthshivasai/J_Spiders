@@ -1,0 +1,9 @@
+.wheel{
+    animation-name: wheel;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes wheel {
+    from{transform: rotatez(0deg);}
+    to{transform: rotatez(360deg);}
+}

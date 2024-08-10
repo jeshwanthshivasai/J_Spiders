@@ -4,8 +4,14 @@
     padding: 0;
 }
 .spiderman {
-    animation: crawling 10s 0s linear;
-
+    animation-duration: 10s;
+    animcrawling 10s 0s linear;
+    transform: ;
+}
+.building {
+    animation: building 5s 0s linear;
+    transform: rotate(90 degrees);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 /* div {
     height: 0vh;
@@ -21,7 +27,7 @@
     color: red;
 } */
 @keyframes bar {
-   0%{background-image: url();}
+   0%{background-image: url(https://static.wikia.nocookie.net/deathbattlefanon/images/0/01/Spidey66_Render.webp/revision/latest?cb=20231004215849);}
    70%{background-image: url();}
    100%{height: 100vh; background-image: url(); color:white;} 
 }

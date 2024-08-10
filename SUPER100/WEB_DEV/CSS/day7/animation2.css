@@ -1,0 +1,20 @@
+.dog {
+    animation-duration: 10s;
+    animation-delay: 0;
+    animation-direction: normal;
+    animation-name: dog;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ease-in-out; */
+}
+@keyframes dog {
+    from{
+        transform: translateX(-10vh);
+    }
+    to{
+        transform: translateX(200vh);
+    }
+    
+}
+.dog img{
+    width: 1000px;
+}
