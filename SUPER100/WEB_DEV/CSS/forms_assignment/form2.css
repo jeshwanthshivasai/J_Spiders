@@ -8,7 +8,7 @@ body{
 }
 .npm {
     align-items: center;
-    align-self: auto;
+    align-self: center;
     margin-top: 100px;
     margin-left: 850px;
 }
