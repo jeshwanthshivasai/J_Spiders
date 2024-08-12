@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "College";
+    src: url(../../../../../../FONT_PACKS/college/colleges.ttf);
+}
 .card {
     margin: 150px auto 0px;
     align-content: center;
@@ -10,7 +14,7 @@
     box-shadow: 0px 0px 30px 2px rgb(117, 39, 50);
 }
 .card p {
-    font-family: sans-serif;
+    font-family: "College";
     font-weight: bold;
     font-size: 30px;
     text-align: center;
@@ -18,8 +22,8 @@
     margin-top: 220px;
     color: whitesmoke;
 }
-p:hover {
+/* p:hover {
     text-align: center;
     transition: ease-in-out;
     letter-spacing: 20px;
-}
+} */
