@@ -2,5 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: solid;
+}
+.webpage-above {
+    border: red solid;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    top: 0px;
+    z-index: 1;
+}
+.webpage-below {
+    border: cyan solid;
+    width: 100%;
+    background-color: black;
+}
+.viewports-container {
+    border: red solid;
+}
+.first-viewport {
+    border: yellow solid;
+}
+.second-viewport {
+    border: blue solid;
+}
+.third-viewport {
+    border: green solid;
+}
+body {
+    border: black solid;
 }
