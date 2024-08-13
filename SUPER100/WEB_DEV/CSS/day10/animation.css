@@ -1,0 +1,13 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    animation: timing 10s infinite;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+
+@keyframes timing {
+    to{transform: translateX();}
+}
