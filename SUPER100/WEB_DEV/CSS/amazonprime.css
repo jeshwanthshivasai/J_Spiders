@@ -2,17 +2,5 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: solid;
 }
-
-.header {
-    background-color: black;
-}
-.navbar {
-    display: flex;
-    margin: 0px;
-}
-navbar {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-} 
