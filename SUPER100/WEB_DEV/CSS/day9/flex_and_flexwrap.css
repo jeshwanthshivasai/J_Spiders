@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: solid;
+}
+
+.outerdiv {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    background-color: aqua;
+    justify-content: space-around;
+}
+
+.innerdiv {
+    height: 100px;
+    width: 100px;
+    flex-direction: row;
+    border: solid;
+    background-color: red;
+}

@@ -1,13 +1,504 @@
-.header {
-    background-color: whitesmoke;
-    display: inline;
-    position: static;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: solid;
 }
-.footer {
-    background-color: lightgray;
-    text-decoration-color: darkgray;
+body {
+    overflow-x: hidden;
+}
+ul li{
+    display: inline-block;
+    font-size: 17px;
+}  
+ul{
+    box-shadow:1px 1px 2px  rgb(208, 203, 203);
+    width: 100%;
+    border: red solid;
+    background-image: linear-gradient(rgb(255, 0, 0));
+    position: fixed;
+}
+.nav:hover{
+    color: #FD5825;
+}
+#l6{
+   position: relative;
+   left: 770px;
+   bottom: 20px;  
+}
+#l5{
+   position: relative;
+   left: 750px;
+   bottom: 20px;
+   cursor: pointer;
+}
+#l4
+{
+    position: relative;
+    left: 730px;
+    bottom: 20px;
+    text-decoration:none;
+    cursor: pointer;
+    font-weight: bold;
+}
+#l3
+{
+    position: relative;
+    left: 700px;
+    bottom: 20px;
+   
+}
+#l2{
+    position: relative;
+    left: 670px;
+    bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#l1{
+    position: relative;
+    left: 630px;
+    bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #FD5825;
+}
+#l0{
+    position: relative;
+    left: 115px;
+    top: 3px;
+    cursor: pointer;
+}
+img[alt="Adiverse"]
+{
+    width: 80px;
+    height: 60px;
+   
+}
+li>button{
+    padding: 10px;
+    width: 130px;
+    cursor: pointer;
+    background-color: #FD5825;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    
+}
+li>select{
+    cursor: pointer;
+    font-weight: bold;
+    width: 135px;
+    padding: 10px 1px 10px 5px; 
+    border: none;
+    font-size: 17px;
+}
+select[id="our"]{
+    width: 130px;
+}
+select[id="about"]{
+    width: 150px;
+}
+#div1{
+    width: 86%;
+    height: 500px;  
+    position: relative;
+    left: 118px;
+    top: 50px;
+}
+#adv1{
+    height: 500px;
+    width: 550px;
+    position: relative;
+    left: 58.5%;
+}
+
+img[alt="adv1"]
+{
+    width: 100%;
+    height: 100%;
+}
+#div1text{
+    height: 500px;
+    width: 700px;
+    position: relative;
+    bottom: 500px;
+}
+.div1content{
+   
+    font-size: 30px;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+.div1content2{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.div1content3{
+    margin-top: 50px;
+}
+button[class="div1content3"]{
+    background-color: #FD5825;
+    width: 185px;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    font-size:20px;
+}
+.middlemain{
+    width: 86% ;
+    position: relative;
+    left: 118px;
+    top: 50px;
+   
+}
+
+.middlebox{
+   
+    width: 400px;
+    height: 340px;
+    display: inline-block;
+    transition-duration: 300ms;
+    border-radius: 10px;
+   
 
 }
-ul li {
+#middlebox1{
+    border: #FD5825 solid;
+   background-color: #FD5825;
+   position: relative;
+   top: 20px;
+}
+#middlebox2{
+    position: relative;
+    left: 20px;
+    background-color: rgb(243, 167, 29);
+    border: rgb(243, 167, 29) solid;
+}
+#middlebox3{
+    position: relative;
+    left: 40px;
+    background-color: rgb(153, 154, 28);
+    border: solid rgb(153, 154, 28);
+}
+.middlebox:hover{
+   transform:scale(1.1,1.1);
+}
+.middleboxtext
+{
+    margin-top: 30px;
+    margin-left: 30px;
+    color: white;
+    
+}
+button[class="middleboxtext"]{
+    color: black;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.imgdiv{
     display: inline-block;
+    width: 100%;
+    height: 300px;
+    
+    position: relative;
+    top: 120px;
+}
+img[alt="ctrls"]{
+    position: relative;
+    height: 200px;
+    margin-right: 50px;
+   
+}
+img[alt="engro"]{
+    position: relative;
+    left: 0px;
+   
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+  
+}
+img[alt="capgemini"]{
+    position: relative;
+    left: 0px;
+    
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+   
+}
+img[alt="Cognizant"]{
+    position: relative;
+    left: 0px;
+   
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+   
+}
+img[alt="databyte"]{
+    position: relative;
+    left: 0px;
+   
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+   
+}
+img[alt="ampleLogic"]{
+    position: relative;
+    left: 0px;
+   
+    width: 200px;
+    height: 200px;
+    margin-right: 0px;
+    
+}
+.scrollimages
+{
+    position: relative;
+   
+    top: 50px;
+    animation-name: images;
+    animation-iteration-count: infinite;
+    animation-duration: 18s;
+    animation-delay: 1s; 
+   
+  
+}
+
+@keyframes images {
+   
+0%{left: 100%;}
+100%{left:  -1500px;}
+
+}
+ .analysis{
+    margin-top: 100px;
+    height: 200px;
+    
+    color: white;
+    background-color: #FD5825;
+}
+.iconsdiv{
+   
+    height: 80px;
+    width: 100%;
+    display: inline-block;
+    box-shadow:1px 1px 2px  rgb(208, 203, 203);
+} 
+
+#icon1
+{
+    height: 50px;
+    width: 50px; 
+    position: relative;
+    left: 800px;
+    top: 30px;
+    font-size: 30px;
+    
+}
+#icon2
+{
+    height: 50px;
+    width: 50px; 
+    position: relative;
+    left: 800px;
+    top: 30px;
+    font-size: 30px;
+    
+}
+#icon3
+{
+    height: 50px;
+    width: 50px; 
+    position: relative;
+    left: 800px;
+    top: 30px;
+    font-size: 30px;
+    
+}
+#icon4
+{
+    height: 50px;
+    width: 50px; 
+    position: relative;
+    left: 800px;
+    top: 30px;
+    font-size: 30px;
+    
+}
+#icontext{
+    text-decoration: none;
+    position: relative;
+    left: 100px;
+    top: 30px;
+    font-size: 20px;
+}
+.analysistext1{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    animation-name: analysis;
+    top: 30px;
+  
+   
+}
+.analysistext2{
+    display: inline-block;
+  
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+.analysistext3{
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    top: 30px;
+}
+.analysistext4{
+    display: inline-block;
+    position: relative;
+    left: 400px;
+    top: 30px;
+}
+.analysistext5{
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    top: 30px;
+}
+#anaysisbot1{
+    position: relative;
+    left: 85px; 
+    top: 40px;
+}
+#analysisbot2{
+    position: relative;
+    left: 170px; 
+    top: 40px;
+}
+#analysisbot3{
+    position: relative;
+    left: 290px;
+    top: 40px;
+    
+}
+#analysisbot4{
+    position: relative;
+    left: 395px;
+    top: 40px;
+    
+}
+#analysisbot5{
+    position: relative;
+    left: 490px;
+    top: 40px; 
+}
+
+.infodiv{
+    width: 84%;
+    height: 500px;
+   
+    position: relative;
+    left: 118px;
+    color: #6c756c;
+}
+.innerinfodiv{
+    width: 420px;
+    height: 100%;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+   
+}
+.imfodiv2{
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#infodiv2
+{
+    position: relative;
+    bottom: 60px;
+}
+#infodiv3
+{
+    position: relative;
+    bottom: 100px;
+}
+#infotext1{
+    position: relative;
+    top: 85px;
+}
+.infotext2{
+    position: relative;
+    top: 100px;
+}
+.infotext3
+{
+    position: relative;
+    top: 120px;
+}
+.infotext4
+{
+    position: relative;
+    top: 150px;
+}
+.infotext8{
+    position: relative;
+    top: 60px;
+}
+#infotext8{
+    position: relative;
+    top: 60px;
+}
+.infotext7{
+    position: relative;
+    top: 40px;
+}
+#infotext7{
+    position: relative;
+    top: 40px;
+}
+.infotext6{
+    position: relative;
+    top: 35px;
+}
+#infotext6{
+    position: relative;
+    top: 35px;
+}
+.infotext5{
+    position: relative;
+    top: 20px;
+}
+#infotext5{
+    position: relative;
+    top: 20px;
+}
+.footer{
+    height: 70px;
+    width: 100%;
+   
+    position: relative;
+    top: 110px;
+    background-color:rgb(235, 236, 237);
+}
+#footertext{
+    font-size: 17px;
+    position: relative;
+    left: 650px;
+    top: 30px;
+    color: #6c756c;
+    
 }
