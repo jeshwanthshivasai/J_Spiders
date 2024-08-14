@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Amazon Ember";
+    src: url(../../../../../FONT_PACKS/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/Amazon-Ember-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    /* border: solid cyan; */
+    justify-content: center;
+    background-color: black;
+}
+
+img[alt="Prime Video"] {
+    width: 96px;
+    height: 18px;
+    /* flex-basis: 5%; */
+    /* border: solid blue; */
+    /* background-color: black; */
+}
+
+.navbar-items {
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: solid red; */
+    color: darkgrey;
+}
+
+#item6 {
+    position: relative;
+    right: 60px;
+    display: flex;
+    cursor: pointer;
+    z-index: 1;
+    color: darkgrey;
+}
+
+#search-box {
+    width: 20px;
+    position: relative;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+}
+
+.dropdown {
+    color: darkgrey;
+    border: none;
+    background-color: black;
+}
+
+.first-div  {
+    background-image: linear-gradient(to right, black,black,rgba(0, 0, 0, 0.181),rgba(0, 0, 0, 0) ), url('https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg');
+    height: 70vh;
+    background-size: cover;
+    /* border: solid red; */
+}
+
+.first-left-content {
+    color: whitesmoke;
+    padding: 50px;
+    /* border: solid; */
+    width: 700px;
+}
+
+.div1-text {
+    margin-bottom: 30px;
+}
+
+.button {
+    padding: 15px;
+    width: 280px;
+    background-color: #0f79af;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.second-div  {
+    background-image: linear-gradient(to right, black,black,rgba(0, 0, 0, 0.181),rgba(0, 0, 0, 0) ), url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg');
+    height: 70vh;
+    background-size: cover;
+    /* border: solid red; */
+}
+
+.second-left-content {
+    color: whitesmoke;
+    padding: 50px;
+    /* border: solid; */
+    width: 700px;
+}
+
+.div2-text {
+    margin-bottom: 30px;
+}
+
+.third-div {
+    background-color: whitesmoke;
+    height: 70vh;
+}
+
+.div3-text {
+    margin-bottom: 30px;
+}
+
+.channel-card-container {
+
+}
+
