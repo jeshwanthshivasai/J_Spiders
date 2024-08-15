@@ -110,13 +110,38 @@ img[alt="Prime Video"] {
 .third-div {
     background-color: whitesmoke;
     height: 70vh;
+    display: flex;
+}
+
+.third-left-content {
+    padding: 50px;
+    border: solid;
+    width: 700px;
 }
 
 .div3-text {
     margin-bottom: 30px;
 }
 
-.channel-card-container {
+.dimensions {
+    width: 200px;
+    height: 152px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.channel-card-container {
+    border: solid;
+    height: 600px;
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.dimensions:hover {
+    box-shadow: 0px 0px 30px 2px rgb(17, 16, 16);
 }
 
