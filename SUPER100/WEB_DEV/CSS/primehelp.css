@@ -117,7 +117,7 @@ img[alt="Prime Video"] {
 
 .third-left-content {
     padding: 50px;
-    border: solid;
+    /* border: solid; */
     width: 700px;
 }
 
@@ -135,7 +135,7 @@ img[alt="Prime Video"] {
 
 .channel-card-container {
     position: absolute;
-    border: solid;
+    /* border: solid; */
     height: 650px;
     width: 650px;
     display: flex;
@@ -156,7 +156,27 @@ img[alt="Prime Video"] {
     align-items: center;
     /* border: solid cyan; */
     justify-content: center;
-    background-color: rgb(80, 80, 80);
-    
+    background-color: rgb(24, 24, 24);
+    border: solid;
+    bottom: 0px;
 }
 
+img[alt="Prime-Logo"] {
+    width: 100px;
+    height: 30px;
+    bottom: 20px;
+    /* flex-basis: 5%; */
+    /* border: solid blue; */
+    /* background-color: black; */
+}
+
+.links a {
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: solid red; */
+    color: darkgrey;
+}
