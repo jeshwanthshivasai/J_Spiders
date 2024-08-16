@@ -6,6 +6,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Amazon Ember";
 }
 
 .navbar {
@@ -108,11 +109,13 @@ img[alt="Prime Video"] {
 }
 
 .third-div {
-    background-color: whitesmoke;
+    background-color: white;
     height: 70vh;
     display: flex;
     position: relative;
+    /* margin-bottom: 100px; */
     /* width: 100%; */
+    /* border: solid; */
 }
 
 .third-left-content {
@@ -126,8 +129,8 @@ img[alt="Prime Video"] {
 }
 
 .dimensions {
-    width: 200px;
-    height: 152px;
+    width: 190px;
+    height: 130px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -136,8 +139,10 @@ img[alt="Prime Video"] {
 .channel-card-container {
     position: absolute;
     /* border: solid; */
-    height: 650px;
+    padding: 5px;
+    height: 580px;
     width: 650px;
+    margin-top: 35px;
     display: flex;
     right: 150px;
     flex-wrap: wrap;
@@ -151,14 +156,22 @@ img[alt="Prime Video"] {
 
 .footer {
     display: flex;
+    flex-direction: column;
     height: 130px;
     width: 100%;
     align-items: center;
-    /* border: solid cyan; */
     justify-content: center;
-    background-color: rgb(24, 24, 24);
-    border: solid;
-    bottom: 0px;
+    background-color:#222222;
+    color: #79b8f3;
+    /* bottom: 0px; */
+}
+
+.footer-content  {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 15px;
+    width: 350px;
 }
 
 img[alt="Prime-Logo"] {
@@ -166,17 +179,13 @@ img[alt="Prime-Logo"] {
     height: 30px;
     bottom: 20px;
     /* flex-basis: 5%; */
-    /* border: solid blue; */
     /* background-color: black; */
 }
 
-.links a {
+.links {
     display: flex;
-    list-style-type: none;
-    width: 50%;
-    padding: 10px;
-    justify-content: space-between;
-    align-items: center;
-    /* border: solid red; */
-    color: darkgrey;
+} 
+.a1{
+    text-decoration: none;
+    color: #79b8f3;
 }
