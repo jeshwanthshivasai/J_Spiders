@@ -5,6 +5,22 @@
     scroll-behavior: smooth!important;
 }
 
+@font-face {
+    font-family: 'ManukaBold';
+    src: url('path-to-your-font/TestManuka-Bold-BF663c33db7b03f.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'ManukaThin';
+    src: url('path-to-your-font/TestManuka-Thin-BF663c33db97e05.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'SöhneBuch';
+    src: url('path-to-your-font/TestSohne-Buch-BF663d89cd32e6a.otf') format('opentype');
+}
+
+
 /* ---------------------------------------------BROWSER STYLESHEET------------------------------------------------ */
 
 * {
@@ -12,10 +28,6 @@
     padding: 0;
     box-sizing: border-box;
     /* border: solid; */
-    @font-face {
-        font-family: manukaBold;
-        src: url();
-    }
 }
 
 /* ------------------------------------------FIRST MAIN DIVISION START------------------------------------------------ */
@@ -241,9 +253,9 @@
 }
 
 .utility, .design, .tech-spec {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: inline-flex;
+    /* flex-direction: column; */
+    align-items: baseline;
     text-align: center;
 }
 
@@ -252,43 +264,60 @@
     font-size: 200px;
     color: rgb(0, 125, 182);
     line-height: 1;
+    display: inline-block;
 }
 
-.litres, .degrees {
+.litres, .alloys, .degrees {
     font-family: 'ManukaThin', sans-serif;
     font-size: 60px;
     line-height: 1;
+    display: inline-block;
+    margin-left: 10px;
+    color: rgb(0, 125, 182);
 }
 
-.u-text, .d-text {
+.u-text, .d-text, .t-text {
     width: 80%;
     font-family: 'SöhneBuch', sans-serif;
     font-size: 16px;
     margin-top: 20px;
-    color: #333;
+    color: rgb(0, 125, 182);
+    font-weight: 500;
+    font-size: 25px;
 }
 
-.u-link, .d-link {
+.u-link, .d-link, .t-link {
     display: flex;
     align-items: center;
     margin-top: 20px;
+    text-decoration: underline 2px;
+    text-underline-offset: 2px;
+    cursor: pointer;
 }
 
-.u-link p, .d-link p {
+.u-link p, .d-link, .t-link p {
     font-family: 'SöhneBuch', sans-serif;
     font-size: 16px;
-    color: #007DB6;
-    margin: 0;
+    color: rgb(0, 125, 182);
+    font-weight: bolder;
+    text-decoration: underline 2px;
+    text-underline-offset: 2px;
+    /* margin: 0; */
 }
 
-.u-svg, .d-svg {
+.u-svg, .d-svg, .t-svg {
     margin-left: 10px;
-    fill: #007DB6;
+    color: rgb(0, 125, 182);
+    cursor: pointer;
+}
+
+.t-svg {
+    rotate: -90deg;
 }
 
 .ss-white {
     height: 100px;
-    background-color: #ffffff;
+    background-color: white;
 }
 
 /* ------------------------------------------SECOND MAIN DIVISION ENDS------------------------------------------- */
