@@ -1,0 +1,324 @@
+/* ---------------------------------------HEADER ONE STARTS--------------------------------------- */
+/* * {
+    border: 1px solid;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #2a2a2a;
+    /* border: solid rgb(0, 255, 13); */
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.logo-1 {
+    width: 170px;
+    height: 40px;
+    margin-left: 230px;
+    /* border: solid rgb(0, 183, 255); */
+}
+
+.logo-2 {
+    width: 220px;
+    height: 24px;
+    margin-left: 30px;
+    /* border: solid rgb(4, 255, 0); */
+}
+
+.social-icons {
+    height: 24px;
+    width: 95px;
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+
+.social-icons img {
+    height: 24px;
+    width: 25px;
+    /* border: solid rgb(255, 0, 242); */
+}
+
+.right-section {
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 230px;
+    /* border: solid rgb(242, 255, 0); */
+}
+
+/* ---------------------------------------HEADER TWO STARTS--------------------------------------- */
+
+.header-white {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    /* border: solid red; */
+}
+
+.top-left {
+    display: flex;
+    align-items: center;
+    /* border: solid rgb(242, 255, 0); */
+    margin-left: 230px;
+
+}
+
+.top-left img {
+    height: 45px;
+    margin-right: 15px;
+    /* border: solid rgb(0, 255, 200); */
+}
+
+.language-dropdown {
+    margin-right: auto;
+    /* border: solid rgb(8, 0, 255); */
+}
+
+.language-dropdown button {
+    background-color: #ff5722;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.dropdown-arrow {
+    font-size: 12px;
+}
+
+.top-right {
+    display: flex;
+    align-items: center;
+    margin-right: 370px;
+}
+
+.top-right input[type="text"] {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ff5722;
+    border-radius: 5px;
+    margin-left: 190px;
+    width: 345px;
+    box-shadow: 0px 0px 5px rgb(69, 69, 69);
+}
+
+.search-button {
+    width: 60px;
+    margin-left: 500px;
+    position: absolute;
+    background-color: #ff5722;
+    color: #ffffff;
+    padding: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-width: 0px;
+}
+
+.login-register {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.login-link {
+    color: #ff5722;
+    text-decoration: none;
+    font-size: 14px;
+    /* border: solid rgb(0, 255, 200); */
+}
+
+.register-link {
+    color: #ff5722;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    /* border: solid rgb(0, 255, 200); */
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* border: solid rgb(0, 255, 200); */
+}
+
+.nav-menu a {
+    color: #333333;
+    margin: 0 46px;
+    border-width: none;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.nav-menu a:hover {
+    color: #ff5722;
+}
+
+.right-gif {
+    /* border: solid; */
+    margin-left: 200px;
+    margin-top: 500px;
+    display: flex;
+    margin: 0 auto;
+    /* align-items: flex-end;
+    z-index: -1;
+    right: 0;
+    top: 0;
+    position: absolute; */
+}
+
+/* ---------------------------------------FIRST MAIN DIVISION STARTS--------------------------------------- */
+
+/* .first-bg-main {
+    width: 100%;
+    background-size: contain 100%, 100%;
+} */
+
+.first-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.
+
+
+/* ---------------------------------------HELP ICON DIVISION STARTS--------------------------------------- */
+.outer-div {
+    width: 80px;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 9px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.bhaskar {
+    width: 90px;
+    height: 75px;
+}
+.chatbot {
+    width: 50px;
+    height: 50px;
+}
+/* ---------------------------------------SECOND MAIN DIVISION STARTS--------------------------------------- */
+
+/* .dpiit-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .left-section {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .card button {
+    background-color: #ff7e29;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .right-section {
+    display: grid;
+    gap: 20px;
+    align-items: start;
+  }
+  
+  .icons-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icon-card {
+    text-align: center;
+    max-width: 150px;
+  }
+  
+  .icon-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .icon-card p {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .icon-card img:last-child {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .right-section button {
+    grid-column: span 2;
+    background-color: #ff7e29;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
+  } */
+  
