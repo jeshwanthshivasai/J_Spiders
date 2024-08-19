@@ -339,6 +339,7 @@
     display: flex;
     justify-content: space-evenly;
     position: absolute;
+    margin-top: 70px;
 }
 
 .first-image, .second-image, .third-image {
@@ -348,12 +349,146 @@
     height: 1060px;
 }
 
+.ss-white {
+    /* border: solid yellow; */
+    height: 100px;
+    background-color: white;
+}
+
 /* --------------------------------------------THIRD MAIN DIVISION ENDS------------------------------------------ */
-/* ------------------------------------------FOURTH MAIN DIVISION STARTS------------------------------------------ */
+/* -------------------------------------------FOURTH MAIN DIVISION STARTS---------------------------------------- */
+
+.fourth-section {
+    position: relative;
+    display: flex;
+    border: solid hotpink;
+    background-color: rgb(196, 225, 238);
+    height: 230vh;
+}
 
 
+.utility-header h2 {
+    position: relative;
+    border: solid red;
+    font-family: 'ManukaBold', sans-serif;
+    font-size: 35px;
+    color: #007DB6;
+    margin-top: 160px;
+    margin-left: 30px;
+
+}
+
+.videos-container {
+    position: relative;
+    display: flex;
+    height: 1212px;
+    width: 1524px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+
+.video-box {
+    position: absolute;
+    display: flex;
+    width: 586px;
+    height: 586px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* text-align: center; */
+}
+
+.video-container {
+    position: absolute;
+    display: flex;
+    width: 586px;
+    height: 586px;
+    /* overflow: hidden; */
+}
+
+.video-container video {
+    position: absolute;
+    display: flex;
+    width: 586px;
+    height: 586px;
+}
+
+.text-container {
+    position: absolute;
+    display: flex;
+    margin-top: 10px;
+}
+
+.text-container h5 {
+    position: absolute;
+    display: flex;
+    font-family: 'SöhneBuch', sans-serif;
+    font-size: 16px;
+    color: #007DB6;
+    /* margin: 5px 0; */
+}
+
+.text-container p {
+    position: absolute;
+    display: flex;
+    font-family: 'SöhneBuch', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
 
 
+/* .fourth-section {
+    border: solid cyan;
+    height: 230vh;
+    background-color: rgb(196, 225, 238);
+}
+
+.videos-container {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 1212px;
+    width: 1524px;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.first, .second, .third, .fourth {
+    width: 586px;
+    height: 746px;
+}
+
+.first-text, .second-text, .third-text, .fourth-text h5 p {
+    width: 586px;
+    height: 98px;
+}
+
+.first-video-container, .second-video-container, .third-video-container, .fourth-video-container video {
+    width: 586px;
+    height: 586px;   
+} */
+
+/* --------------------------------------------FOURTH MAIN DIVISION ENDS----------------------------------------- */
+/* -------------------------------------------FIFTH MAIN DIVISION STARTS----------------------------------------- */
+
+.fifth-section {
+    /* border: solid cyan; */
+    width: 100%;
+    height: 125vh;
+    background-image: url(./river/panning.webp);
+    /* background-position: bottom center; */
+    background-size: cover;
+    position: relative;
+    /* background-blend-mode: multiply; */
+}
+
+/* ---------------------------------------------FIFTH MAIN DIVISION ENDS----------------------------------------- */
 
 
 
