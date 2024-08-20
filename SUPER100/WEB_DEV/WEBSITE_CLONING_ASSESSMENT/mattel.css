@@ -358,121 +358,143 @@
 /* --------------------------------------------THIRD MAIN DIVISION ENDS------------------------------------------ */
 /* -------------------------------------------FOURTH MAIN DIVISION STARTS---------------------------------------- */
 
-.fourth-section {
-    position: relative;
-    display: flex;
-    border: solid hotpink;
-    background-color: rgb(196, 225, 238);
-    height: 230vh;
-}
-
-
-.utility-header h2 {
-    position: relative;
-    border: solid red;
-    font-family: 'ManukaBold', sans-serif;
-    font-size: 35px;
-    color: #007DB6;
-    margin-top: 160px;
-    margin-left: 30px;
-
-}
+/* 
 
 .videos-container {
-    position: relative;
+    border: solid red;
     display: flex;
-    height: 1212px;
-    width: 1524px;
-    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    height: 1450px;
+    width: 1212px;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
-    margin-top: 30px;
-    margin-left: 500px;
-}
-
-.video-box {
-    position: absolute;
-    display: flex;
-    width: 586px;
-    height: 586px;
-    display: flex;
-    /* flex-direction: column; */
-    align-items: center;
-    /* text-align: center; */
+    margin-top: 160px;
+    margin-left: 520px;
 }
 
 .video-container {
-    position: absolute;
+    border: solid yellow;
     display: flex;
     width: 586px;
     height: 586px;
-    /* overflow: hidden; */
 }
 
 .video-container video {
-    position: absolute;
+    border: solid violet;
+    display: flex;
+
+    width: 580px;
+    height: 580px;
+}
+
+.text-container{
+    border: solid green;
+    display: flex;
+    width: 586px;
+    margin-top: 20px;
+}
+
+.text-container h5 {
+    width: 586px;
+    height: 32px;
+    border: solid goldenrod;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'SöhneBuch', sans-serif;
+    font-size: 16px;
+    color: rgb(0, 125, 182);
+}
+
+.text-container p {
+    width: 586px;
+    height: 65px;
+    border: solid blueviolet;
+    display: flex;
+    font-family: 'SöhneBuch', sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    color: rgb(0, 125, 182);
+} 
+    
+*/
+
+
+.fourth-section {
+    height: 202vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(196, 225, 238);
+    padding: 40px;
+}
+
+.utility-header h2 {
+    font-family: 'ManukaBold', sans-serif;
+    font-size: 35px;
+    color: rgb(0, 125, 182);
+    /* margin-bottom: 40px; */
+    margin-top: 160px;
+    margin-left: 30px;
+}
+
+.videos-container {
+    border: solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 1450px;
+    width: 1212px;
+    gap: 20px;
+    margin-left: 520px;
+    margin-top: 160px;
+}
+
+.video-box {
+    display: flex;
+    flex-direction: column;
+    width: 586px;
+    align-items: center;
+}
+
+.video-container {
+    width: 586px;
+    height: 586px;
+}
+
+.video-container video {
     display: flex;
     width: 586px;
     height: 586px;
 }
 
 .text-container {
-    position: absolute;
     display: flex;
-    margin-top: 10px;
+    width: 586px;
+    margin-top: 20px;
+    text-align: left;
 }
 
 .text-container h5 {
-    position: absolute;
+    width: 586px;
+    height: 32px;
     display: flex;
+    flex-wrap: wrap;
     font-family: 'SöhneBuch', sans-serif;
     font-size: 16px;
-    color: #007DB6;
-    /* margin: 5px 0; */
+    color: rgb(0, 125, 182);
+    margin-bottom: 10px;
 }
 
 .text-container p {
-    position: absolute;
-    display: flex;
     font-family: 'SöhneBuch', sans-serif;
     font-size: 14px;
-    color: #333;
+    color: rgb(0, 125, 182);
 }
 
 
-/* .fourth-section {
-    border: solid cyan;
-    height: 230vh;
-    background-color: rgb(196, 225, 238);
-}
 
-.videos-container {
-    display: flex;
-    flex-direction: column;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 1212px;
-    width: 1524px;
-    justify-content: space-between;
-    position: absolute;
-    margin-top: 150px;
-}
-
-.first, .second, .third, .fourth {
-    width: 586px;
-    height: 746px;
-}
-
-.first-text, .second-text, .third-text, .fourth-text h5 p {
-    width: 586px;
-    height: 98px;
-}
-
-.first-video-container, .second-video-container, .third-video-container, .fourth-video-container video {
-    width: 586px;
-    height: 586px;   
-} */
 
 /* --------------------------------------------FOURTH MAIN DIVISION ENDS----------------------------------------- */
 /* -------------------------------------------FIFTH MAIN DIVISION STARTS----------------------------------------- */
@@ -480,12 +502,11 @@
 .fifth-section {
     /* border: solid cyan; */
     width: 100%;
-    height: 125vh;
+    height: 124vh;
     background-image: url(./river/panning.webp);
-    /* background-position: bottom center; */
+    background-position: left center;
     background-size: cover;
     position: relative;
-    /* background-blend-mode: multiply; */
 }
 
 /* ---------------------------------------------FIFTH MAIN DIVISION ENDS----------------------------------------- */

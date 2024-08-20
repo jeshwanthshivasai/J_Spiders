@@ -68,6 +68,7 @@ body {
     align-items: center;
     background-color: #ffffff;
     /* border: solid red; */
+    /* overflow: hidden; */
 }
 
 .top-left {
@@ -178,10 +179,12 @@ body {
 
 .right-gif {
     /* border: solid; */
+    /* margin-left: 200px; */
+    margin-top: 70px;
     margin-left: 200px;
-    margin-top: 500px;
     display: flex;
-    margin: 0 auto;
+    overflow: hidden;
+    /* margin: 0 auto; */
     /* align-items: flex-end;
     z-index: -1;
     right: 0;
@@ -206,7 +209,6 @@ body {
     justify-content: space-evenly;
 }
 
-.
 
 
 /* ---------------------------------------HELP ICON DIVISION STARTS--------------------------------------- */
