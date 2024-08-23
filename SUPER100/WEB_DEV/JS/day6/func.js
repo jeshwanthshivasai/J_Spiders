@@ -29,3 +29,15 @@ var square4 = square(4);
 console.log(square2);
 console.log(square4);
 
+
+var x = 1;
+add();
+subtract();
+function add() {
+    var x = 10;
+    console.log(x);
+}
+function subtract() {
+    var x = 100;
+    console.log(x);
+}
