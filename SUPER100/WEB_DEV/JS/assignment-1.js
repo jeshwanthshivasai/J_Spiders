@@ -160,3 +160,9 @@ nums.splice(0, items.length);
 console.log(items);
 
 
+function reversed(str) {
+  return str.split('').reverse().join('');
+}
+var word='hello';
+var reverse = reversed(word);
+console.log(reverse);

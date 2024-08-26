@@ -44,7 +44,7 @@ var api2 = [
       "gravatar_id": "",
       "url": "https://api.github.com/users/mojombo",
       "html_url": "https://github.com/mojombo",
-      "followers_url": "https://api.github.com/users/mojombo/followers",
+      "followers_url": "https://api.github.com/users/mojombo/followers",''
       "following_url": "https://api.github.com/users/mojombo/following{/other_user}",
       "gists_url": "https://api.github.com/users/mojombo/gists{/gist_id}",
       "starred_url": "https://api.github.com/users/mojombo/starred{/owner}{/repo}",
@@ -641,7 +641,7 @@ var api2 = [
 var api3 = [
     {
       "id": 1,
-      "name": "Leanne Graham",
+      "name": "Leanne Graham",.
       "username": "Bret",
       "email": "Sincere@april.biz",
       "address": {
