@@ -41,25 +41,37 @@ var [,e1,e2,,] = demo; */
 
 // console.log(e1, e2); // 2, 4
 
-const apiResponse = [200, 'Ok', {userId : 1, name : 'jesse'}];
 //statuscode, status message, user data
+const apiResponse = [200, 'Ok', {userId : 1, name : 'jesse'}];
 var [statusCode, statusMessage, userData] = apiResponse;
 
 console.log(statusCode, statusMessage, userData); // 200, Ok, { userId: 1, name: 'jesse' }
 
 
-const csvData = 'jesse, james, 25, male';
+/* const csvData = 'jesse, james, 25, male';
 
 const [myName, surname, age, gender] = csvData.split(',');
 
 console.log(myName, surname, age, gender); // jesse, james, 25, male
 
 var date  = new date(2022, 1, 24, 13, 8, 46);
-console.log.date;
+console.log.date; */
 
 //input: [2024, 7, 26, 13, 00, 00];
 //output: 'Mon Aug 26 2024 13:00:00 GMT +0000(UTC)';
 
 var date = [2024, 7, 26, 13, 0, 0];
 var [year, month, day, hours, minutes, seconds] = date;
-var date = Date{year, date, }
+var date = Date{year, date};
+var obj={
+    name:"dileep",
+    age:25,
+    salary:200000,
+    des:"SE"
+
+}
+var{gender,role}=obj;
+console.log(gender);
+console.log(role);
+
+
