@@ -33,7 +33,7 @@ var uppercased = words.map(function(word) {
 });
 console.log(uppercased);
 
-var words = ['apple', 'banana', 'cherry'];
+var words = ['apricot', 'blueberry', 'cherry'];
 var lengths = words.map(function(word) {
     return word.length;
 });
@@ -90,7 +90,7 @@ var greaterThanTen = numbers.filter(function(num) {
 });
 console.log(greaterThanTen);
 
-var words = ['apple', 'banana', 'avocado', 'grape'];
+var words = ['apricot', 'blueberry', 'avocado', 'grape'];
 var startsWithA = words.filter(function(word) {
     return word[0] === 'a';
 });
@@ -109,10 +109,10 @@ var validValues = values.filter(function(value) {
 console.log(validValues);
 
 var students = [
-    {name: 'Alice', age: 22},
+    {name: 'jesse', age: 22},
     {name: 'Bob', age: 19},
-    {name: 'Charlie', age: 23},
-    {name: 'David', age: 18}
+    {name: 'creekwood', age: 23},
+    {name: 'derbeyshire', age: 18}
 ];
 var youngerStudents = students.filter(function(student) {
     return student.age <= 20;
@@ -120,9 +120,9 @@ var youngerStudents = students.filter(function(student) {
 console.log(youngerStudents);
 
 var items = [
-    {type: 'fruit', name: 'apple'},
-    {type: 'vegetable', name: 'carrot'},
-    {type: 'fruit', name: 'banana'}
+    {type: 'fruit', name: 'apricot'},
+    {type: 'vegetable', name: 'curryleaf'},
+    {type: 'fruit', name: 'blueberry'}
 ];
 var fruits = items.filter(function(item) {
     return item.type === 'fruit';
@@ -170,7 +170,7 @@ var longest = words.reduce(function(longest, word) {
 }, '');
 console.log(longest);
 
-var items = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple'];
+var items = ['apricot', 'blueberry', 'apricot', 'orange', 'blueberry', 'apricot'];
 var count = items.reduce(function(acc, item) {
     acc[item] = (acc[item] || 0) + 1;
     return acc;
@@ -189,7 +189,7 @@ var flatArray = arrays.reduce(function(flat, array) {
 }, []);
 console.log(flatArray);
 
-var words = ['apple', 'banana', 'cherry'];
+var words = ['apricot', 'blueberry', 'cherry'];
 var totalChars = words.reduce(function(total, word) {
     return total + word.length;
 }, 0);
@@ -236,7 +236,7 @@ var totalCost = prices.reduce(function(total, price) {
 }, 0);
 console.log(totalCost);
 
-var items = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple'];
+var items = ['apricot', 'blueberry', 'apricot', 'orange', 'blueberry', 'apricot'];
 var mostFrequent = items.reduce(function(acc, item) {
     acc[item] = (acc[item] || 0) + 1;
     return acc;
@@ -255,16 +255,16 @@ var sortedNumbers = numbers.sort(function(a, b) {
 console.log(sortedNumbers);
 
 var students = [
-    {name: 'Alice', grade: 85},
+    {name: 'jesse', grade: 85},
     {name: 'Bob', grade: 92},
-    {name: 'Charlie', grade: 87}
+    {name: 'creekwood', grade: 87}
 ];
 var sortedByGrade = students.sort(function(a, b) {
     return a.grade - b.grade;
 });
 console.log(sortedByGrade);
 
-var words = ['apple', 'banana', 'cherry', 'date'];
+var words = ['apricot', 'blueberry', 'cherry', 'date'];
 var sortedByLength = words.sort(function(a, b) {
     return a.length - b.length;
 });
@@ -286,7 +286,7 @@ var sortedBooleans = booleans.sort(function(a, b) {
 });
 console.log(sortedBooleans);
 
-var words = ['Banana', 'apple', 'Cherry', 'date'];
+var words = ['blueberry', 'apricot', 'Cherry', 'date'];
 var sortedWords = words.sort(function(a, b) {
     return a.toLowerCase().localeCompare(b.toLowerCase());
 });
@@ -298,14 +298,14 @@ var sortedBySum = arrays.sort(function(a, b) {
 });
 console.log(sortedBySum);
 
-var words = ['apple', 'banana', 'cherry'];
+var words = ['apricot', 'blueberry', 'cherry'];
 var sortedWords = words.sort().reverse();
 console.log(sortedWords);
 
 var people = [
-    {name: 'Alice', age: 25},
+    {name: 'jesse', age: 25},
     {name: 'Bob', age: 20},
-    {name: 'Charlie', age: 25}
+    {name: 'creekwood', age: 25}
 ];
 var sortedPeople = people.sort(function(a, b) {
     return a.age - b.age || a.name.localeCompare(b.name);
@@ -329,9 +329,9 @@ var result = numbers
 console.log(result);
 
 var people = [
-    {name: 'Alice', age: 25},
+    {name: 'jesse', age: 25},
     {name: 'Bob', age: 20},
-    {name: 'Charlie', age: 30}
+    {name: 'creekwood', age: 30}
 ];
 var result = people
     .filter(function(person) { return person.age > 20; })
