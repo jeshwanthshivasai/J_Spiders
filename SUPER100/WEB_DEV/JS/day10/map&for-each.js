@@ -45,7 +45,6 @@ const numbers1 = [-3, -1, 2, 4, -5, 6];
 const positiveNumbers = numbers1.filter(number => number > 0);
 console.log(positiveNumbers);
 
-
 let numbers2 = [1, 2, 3, 4, 4, 5];
 numbers2 = numbers2.filter((num, index, value) => value.indexOf(num) === index);
 console.log(numbers2);
