@@ -29,5 +29,7 @@ let bg = document.getElementById("background");
 // console.log(bg);
 bg.style.height = '100vh';
 bg.style.background = "url('https://picsum.photos/1920/1080')";
+bg.style.backgroundsize="cover"
 bg.style.backgroundSize = "100vh";
-bg.style.backgroundImage = `linear-gradient(to bottom left, black, red)`;
+// bg.style.background=url("https://picsum.photos/1920/1080" );
+bg.style.backgroundAttachment="fixed"
