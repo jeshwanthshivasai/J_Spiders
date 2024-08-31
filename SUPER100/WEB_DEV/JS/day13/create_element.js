@@ -24,5 +24,24 @@ document.body.appendChild(image);
 // image.setAttribute('alt', 'images');
 
 
+let api = fetch('https://fakestoreapi.com/products');
+console.log(api);
 
+//importing all the images from the api
+
+api.then(res => res.json()).then(data => {
+    data.forEach(product => {
+        let image = document.createElement('img');
+        document.body.appendChild(image);
+        image.src = product.image;
+        image.alt = product.title;
+    });
+}).catch(err => console.error(err));
+
+// api.then(res => res.json()).then(x => {
+//     x.map(data => {
+//         let image = document.getElementById('images');
+//         image.innerHTML += `<img src="${data.image}" alt="${data.title}">`;
+//     })
+// })
 
