@@ -12,23 +12,14 @@
         <h1>Saleem Pheku Store</h1>
     </header>
 
-    <nav class="navbar">
-        <div class="logo">Fake Store</div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
-            <li><a href="#"><i class="fas fa-shopping-cart"></i> Cart</a></li>
-        </ul>
-    </nav>
 
     <div class="products-container" id="products-container"></div>
 
-    <div class="product-form">
-        <input type="number" id="quantity" value="1" min="1" max="10">
-        <button onclick="addToCart()">Add to Cart</button>
-        <button onclick="reset()">Reset</button>
-    </div>
+    <span id="num">0</span>
+    <button onclick="plus()" id="plus">+</button>
+    <button onclick="minus()" id="minus">-</button>
+    <button onclick="reset()">Reset</button>
+
 
     <footer>
         <p>&copy; 2024 Saleem Pheku Store. All Rights Reserved.</p>
