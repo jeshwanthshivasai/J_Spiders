@@ -11,7 +11,7 @@ body {
 }
 
 /* Overlay Effect to Add Grain and Blur */
-body::before {
+/* body::before {
     content: '';
     position: absolute;
     top: 0;
@@ -21,7 +21,7 @@ body::before {
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     z-index: -1;
-}
+} */
 
 /* Header Styling with Linear Gradient */
 header {
@@ -40,7 +40,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 20px; 
     padding: 20px;
     position: relative;
     z-index: 1;
