@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+#div {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 2rem;
+    color: darkolivegreen;
+}
+
+img {
+    border-radius: 5px;
+    margin: 20px 0;
+}
