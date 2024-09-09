@@ -15,9 +15,20 @@ body {
     100% { background: linear-gradient(135deg, #a0e1e0, #b0defe); }
 }
 
+div h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: medium;
+}
+
+div p {
+    text-align: center;
+    justify-content: center;
+}
+
 .card {
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
     perspective: 1000px;
 }
 
@@ -42,7 +53,7 @@ body {
 
 .card-inside {
     transform: rotateY(-180deg);
-    background-color: #61dafb;
+    background-color: #12576a;
     color: #fff;
 }
 

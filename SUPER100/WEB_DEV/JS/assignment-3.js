@@ -2,76 +2,76 @@
 // MAP()
 // ---------------------------------------------------------------
 var names = ['Jesse', 'James', 'Ryder'];
-var greetings = names.map(function(name) {
+var greetings = names.map((name) => {
     return 'Hello ' + name;
 });
 console.log(greetings);
 
 
 var celsius = [0, 20, 30];
-var fahrenheit = celsius.map(function(temp) {
+var fahrenheit = celsius.map((temp) =>{
     return temp * 9/5 + 32;
 });
 console.log(fahrenheit);
 
 
 var numbers = [1, 2, 3, 4, 5];
-var addTen = numbers.map(function(num) {
+var addTen = numbers.map((num) => {
     return num + 10;
 });
 console.log(addTen);
 
 var numbers = [1, 2, 3, 4];
-var doubled = numbers.map(function(num) {
+var doubled = numbers.map((num) => {
     return num * 2;
 });
 console.log(doubled);
 
 var words = ['hello', 'world'];
-var uppercased = words.map(function(word) {
+var uppercased = words.map((word) => {
     return word.toUpperCase();
 });
 console.log(uppercased);
 
 var words = ['apricot', 'blueberry', 'cherry'];
-var lengths = words.map(function(word) {
+var lengths = words.map((word) => {
     return word.length;
 });
 console.log(lengths);
 
 var animals = ['cat', 'dog', 'fish'];
-var plural = animals.map(function(animal) {
+var plural = animals.map((animal) => {
     return animal + 's';
 });
 console.log(plural);
 
 var numbers = [2, 3, 4];
-var squares = numbers.map(function(num) {
+var squares = numbers.map((num) => {
     return num * num;
 });
 console.log(squares);
 
 var pricesUSD = [10, 20, 30];
 var exchangeRate = 0.85;
-var pricesEUR = pricesUSD.map(function(price) {
+var pricesEUR = pricesUSD.map((price) => {
     return price * exchangeRate;
 });
 console.log(pricesEUR);
 
 var fullNames = ['Jesse', 'James'];
-var firstNames = fullNames.map(function(name) {
+var firstNames = fullNames.map((name) => {
     return name.split(' ')[0];
 });
 console.log(firstNames);
 
 var numbers = [10, 20, 30];
-var result = numbers.map(function(num, index) {
+var result = numbers.map((num, index) => {
     return num + index;
 });
 console.log(result);
 
 var booleans = [true, false, true];
-var integers = booleans.map(function(bool) {
+var integers = booleans.map((bool) => {
     return bool ? 1 : 0;
 });
 console.log(integers);
@@ -79,31 +79,31 @@ console.log(integers);
 // FILTER()
 // ---------------------------------------------------------------
 var numbers = [1, 2, 3, 4, 5, 6];
-var evens = numbers.filter(function(num) {
+var evens = numbers.filter((num) => {
     return num % 2 === 0;
 });
 console.log(evens);
 
 var numbers = [5, 10, 15, 20];
-var greaterThanTen = numbers.filter(function(num) {
+var greaterThanTen = numbers.filter((num) => {
     return num > 10;
 });
 console.log(greaterThanTen);
 
 var words = ['apricot', 'blueberry', 'avocado', 'grape'];
-var startsWithA = words.filter(function(word) {
+var startsWithA = words.filter((word) => {
     return word[0] === 'a';
 });
 console.log(startsWithA);
 
 var numbers = [-3, -1, 2, 4, -5];
-var positives = numbers.filter(function(num) {
+var positives = numbers.filter((num) => {
     return num > 0;
 });
 console.log(positives);
 
 var values = [null, 'hello', undefined, 'world'];
-var validValues = values.filter(function(value) {
+var validValues = values.filter((value) => {
     return value != null;
 });
 console.log(validValues);
@@ -114,7 +114,7 @@ var students = [
     {name: 'creekwood', age: 23},
     {name: 'derbeyshire', age: 18}
 ];
-var youngerStudents = students.filter(function(student) {
+var youngerStudents = students.filter((student) => {
     return student.age <= 20;
 });
 console.log(youngerStudents);
@@ -124,13 +124,13 @@ var items = [
     {type: 'vegetable', name: 'curryleaf'},
     {type: 'fruit', name: 'blueberry'}
 ];
-var fruits = items.filter(function(item) {
+var fruits = items.filter((item) => {
     return item.type === 'fruit';
 });
 console.log(fruits);
 
 var numbers = [2, 3, 4, 5, 6, 7, 8, 9];
-var isPrime = function(num) {
+var isPrime = (num) => {
     for (var i = 2, sqrt = Math.sqrt(num); i <= sqrt; i++)
         if (num % i === 0) return false;
     return num > 1;

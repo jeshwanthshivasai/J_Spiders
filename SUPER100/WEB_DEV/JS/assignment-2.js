@@ -13,7 +13,7 @@
 // var modulo = (a, b) => a % b;
 // console.log(modulo(3, 5));
 
-// var greet = (name) => `Hello, {name}!`;
+// var greet = (name) => (`Hello, {name}!`);
 // console.log(greet("Jesse"));
 
 // var square = a => a * a;
