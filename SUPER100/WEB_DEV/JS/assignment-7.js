@@ -153,7 +153,7 @@ product(function pro(a,b){
 })
 
 
-//---------------*array & object destructing*-----------
+//---------------*array & object destructuring*-----------
 //example1
 let x=[[2,3,8,9],[[[4,9,6,1,0]]]]
 let [[d1,],[[[d3,,d4]]]]=x

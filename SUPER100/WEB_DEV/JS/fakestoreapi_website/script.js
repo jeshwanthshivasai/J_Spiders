@@ -23,6 +23,7 @@ async function fetchProducts() {
 // }
 
 // Display products on the page
+
 function displayProducts(products) {
     const container = document.getElementById('products-container'); 
     products.forEach(product => {
