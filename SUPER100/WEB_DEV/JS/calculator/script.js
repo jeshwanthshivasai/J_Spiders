@@ -1,5 +1,6 @@
 function showOnDisplay() {
-    
+    const display = document.getElementById('display');
+    display.value += value;
 }
 
 function clear() {
@@ -7,7 +8,7 @@ function clear() {
     display.value = '';
 }
 
-function calculateResult() {
+function calResult() {
     const display = document.createElement('display');
     try {
         display.value = eval(display.value);

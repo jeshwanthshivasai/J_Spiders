@@ -39,7 +39,5 @@ var sum1 = Number(prompt("enter a"));
 var sum2 = Number(prompt("enter b"));
 console.log(sum1 + sum2);
 
-var msg = confirm("do you want to access your microphone?");
-console.log(msg);
-
-alert("download successful");
+var msg = alert("do you want to access your microphone?");
+console.log(msg);4

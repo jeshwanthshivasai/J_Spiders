@@ -449,7 +449,7 @@ trackBlurEvents();
 //example9
 function trackMouseRelease() {
     let releaseCount = 0;
-    document.getElementById("myBox").addEventListener("mouseup", function() {
+    document.getElementById("myBox").addEventListener("mouseup",() => {
         releaseCount++;
         console.log(`Mouse button released ${releaseCount} times`);
     });
