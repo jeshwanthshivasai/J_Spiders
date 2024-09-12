@@ -1,0 +1,30 @@
+#table {
+    width : 1000px;
+    height: auto;
+    border: solid 5px lightgrey;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-left: 450px;
+    margin-top: 250px;
+}
+
+#table-heading th {
+    font-family: monospace;
+    background-color: lightblue;
+    border-radius: 10px;
+    color: yellow;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+tbody td {
+    font-family: monospace;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: lightsteelblue;
+    color: white; 
+    font-weight: bolder;
+    font-size: medium;
+}
