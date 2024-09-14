@@ -1,8 +1,7 @@
 //----------------------*array iterable methods*--------------------
 //example1
 let numbers=[1.5,2.9,3.3,4,8.59,6,7,8,9];
-let squareNumbers=numbers.map(x=>Math.ceil(x))
-.map((number) => number * number)
+let squareNumbers=numbers.map(x=>Math.ceil(x)).map((number) => number * number)
 console.log(squareNumbers); 
 
 //example2
@@ -17,17 +16,17 @@ let users=[
     {id:3,profile:{age:35}},
     {id:4,profile:{age:28}},
 ]
-let use=users.filter(x=>x.profile.age>30)
-console.log(use);
+let user=users.filter(x=>x.profile.age>30)
+console.log(user);
 
 //example4
-let employe=[
+let employees=[
     {firstName:"jesse",lastName:"ss",age:23},
     {firstName:"jeshwanth",lastName:"ss",age:24},
     {firstName:"ss",lastName:"jeshwanth",age:25},
     {firstName:"ss",lastName:"jesse",age:26},  
   ];
-let employee=employe.map((x)=>{
+let employee=employees.map((x)=>{
       return x.firstName+" "+x.lastName;
   })
 console.log(employee);
@@ -217,6 +216,7 @@ let [first1,second,third1]=fruits;
 console.log(first1); 
 console.log(second); 
 console.log(third1);
+
 //example11
 let obj = { obj1: 1, obj2: { obj3: 2 } };
 let {
