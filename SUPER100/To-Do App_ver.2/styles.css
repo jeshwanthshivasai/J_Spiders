@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightsteelblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#todo-container {
+    background: lightskyblue;
+    width: 800px;
+    height: 600px;
+    margin: 164px auto;
+    border: 2px solid lightblue;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6);
+}
+
+#header {
+    margin: 5px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#input-box {
+    height: 40px;
+    width: 500px;
+    padding: 10px;
+    background-color: lightskyblue;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 0.8rem;
+    color: white;
+}
+
+#input-button {
+    height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px;
+    border: 20px yellow;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    color: white;
+}
+
+/* #input-button:hover {
+    background-color: yellow;
+    color: white;
+} */
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align:left;
+}
+
+li {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.edit-button, .delete-button {
+    float: right;
+    color: yellow;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 0px 10px;
+    background: none;
+} 
+
+.completed {
+    text-decoration: line-through;
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.counter-container {
+    margin-top: 17px;
+    color: yellow;
+    font-weight: bold;
+    word-spacing: 0.5rem;
+}
