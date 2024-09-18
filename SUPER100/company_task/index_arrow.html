@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubbles App</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        canvas {
+            border: 2px solid ;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>Bubbles App</h2>
+    <canvas id="bubbleCanvas" width="600" height="300"></canvas>
+    <br>
+    <button onclick="startHitButton()">Hit</button>
+    <button onclick="resetCanvas()">Reset</button>
+
+    <script>
+        const canvas = document.getElementById('bubbleCanvas');
+        const canvasContext = canvas.getContext('2d');    
+        let circleColor = getRandomColor();
+        let arrowPositionX = 650;
+        let isHit = false;
+        const circleRadius = 80;
+        const circlePositionX = 100;
+        const arrowLength = 40;    
+
+        function drawInitialElements() {
+
+            canvasContext.clearRect(0, 0, canvas.width, canvas.height);   
+
+            canvasContext.beginPath();
+            canvasContext.arc(circlePositionX, 150, circleRadius, 0, Math.PI * 2);
+            canvasContext.fillStyle = circleColor;
+            canvasContext.fill();
+            canvasContext.lineWidth = 2;
+            canvasContext.strokeStyle = "black";
+            canvasContext.stroke();   
+
+            drawArrow(arrowPositionX, 150);
+        } 
+
+        function drawArrow(x, y) {
+            canvasContext.beginPath();
+            canvasContext.moveTo(x, y);
+            canvasContext.lineTo(x - arrowLength, y);
+            canvasContext.lineTo(x - arrowLength + 10, y - 10);
+            canvasContext.moveTo(x - arrowLength, y);
+            canvasContext.lineTo(x - arrowLength + 10, y + 10);
+            canvasContext.strokeStyle = "black";
+            canvasContext.lineWidth = 2;
+            canvasContext.stroke();
+        } 
+
+        function startHitButton() {
+            if (!isHit) {
+                const interval = setInterval(() => {
+
+                    if (arrowPositionX > circlePositionX + circleRadius + arrowLength) {
+                        canvasContext.clearRect(0, 0, canvas.width, canvas.height);
+                        arrowPositionX -= 5;
+                        drawInitialElements();
+                    } else {
+                        clearInterval(interval);
+                        changeCircleColor();
+                        isHit = true;
+                    }
+                }, 30);
+            }
+        } 
+
+        function changeCircleColor() {
+            circleColor = getRandomColor();
+            drawInitialElements();
+        } 
+
+        function resetCanvas() {
+            circleColor = getRandomColor();
+            arrowPositionX = 550;
+            isHit = false;
+            drawInitialElements();
+        } 
+
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        } 
+
+        drawInitialElements();
+    </script>
+
+</body>
+</html>

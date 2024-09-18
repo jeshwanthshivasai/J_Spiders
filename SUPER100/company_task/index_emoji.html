@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubbles App - Canvas</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      canvas {
+        border: 2px solid black;
+      }
+    </style>
+</head>
+<body>
+
+  <h2>Bubbles App</h2>
+  <canvas id="bubbleCanvas" width="600" height="300"></canvas>
+  <br>
+  <button onclick="startHit()">Hit</button>
+  <button onclick="resetCanvas()">Reset</button>
+
+    <script>
+      const canvas = document.getElementById('bubbleCanvas');
+      const canvasContext = canvas.getContext('2d');
+
+      let circleColor = getRandomColor();
+      let emojiX = 550;
+      let isHit = false;
+      const circleRadius = 50;
+      const circleX = 100; // X position of the circle's center
+      const emoji = '👈'; // The emoji to display
+
+      // Function to draw the initial state of the canvas (circle + emoji)
+      function drawInitialState() {
+        canvasContext.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Draw circle on the left
+        canvasContext.beginPath();
+        canvasContext.arc(circleX, 150, circleRadius, 0, Math.PI * 2);
+        canvasContext.fillStyle = circleColor;
+        canvasContext.fill();
+        canvasContext.lineWidth = 2;
+        canvasContext.strokeStyle = "black";
+        canvasContext.stroke();
+
+        // Draw emoji on the right
+        drawEmoji(emojiX, 160); // Slightly adjust the Y position to center the emoji
+      }
+
+      // Function to draw the emoji
+      function drawEmoji(x, y) {
+        canvasContext.font = "40px Arial"; // Adjust the font size for the emoji
+        canvasContext.fillText(emoji, x, y);
+      }
+
+      // Function to start the hit movement of the emoji
+      function startHit() {
+        if (!isHit) {
+          const interval = setInterval(() => {
+            // Stop the emoji when it touches the outer surface of the circle
+            if (emojiX > circleX + circleRadius + (-1)) { // Adjust the distance for emoji size
+              canvasContext.clearRect(0, 0, canvas.width, canvas.height);
+              emojiX -= 5;
+              drawInitialState();
+            } else {
+              clearInterval(interval);
+              changeCircleColor();
+              isHit = true;
+            }
+          }, 30);
+        }
+      }
+
+      // Function to change the color of the circle when hit
+      function changeCircleColor() {
+        circleColor = getRandomColor();
+        drawInitialState();
+      }
+
+      // Function to reset the canvas to the initial state
+      function resetCanvas() {
+        circleColor = getRandomColor();
+        emojiX = 550;
+        isHit = false;
+        drawInitialState();
+      }
+
+      // Function to generate a random color
+      function getRandomColor() {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+          color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      }
+
+      // Initial drawing on page load
+      drawInitialState();
+    </script>
+
+</body>
+</html>
