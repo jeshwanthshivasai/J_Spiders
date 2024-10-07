@@ -10,17 +10,17 @@ async function fetchProducts() {
 }
 
 //add to cart
-// let val = document.getElementById('num')
-// val.innerHTML = '0';
-// function plus() {
-//     val.innerHTML++;
-// }
-// function minus() {
-//     val.innerHTML--;
-// }
-// function reset() {
-//     val.innerHTML = '0';
-// }
+let val = document.getElementById('num')
+val.innerHTML = '0';
+function plus() {
+    val.innerHTML++;
+}
+function minus() {
+    val.innerHTML--;
+}
+function reset() {
+    val.innerHTML = '0';
+}
 
 // Display products on the page
 
