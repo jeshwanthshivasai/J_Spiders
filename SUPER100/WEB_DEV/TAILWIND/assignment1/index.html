@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Comprehensive Webpage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-2xl font-bold">BrandName</a>
+            <div class="space-x-4">
+                <a href="#" class="text-gray-300 hover:text-white">Home</a>
+                <a href="#" class="text-gray-300 hover:text-white">Features</a>
+                <a href="#" class="text-gray-300 hover:text-white">Pricing</a>
+                <a href="#" class="text-gray-300 hover:text-white">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-cover bg-center h-screen" style="background-image: url('https://via.placeholder.com/1920x600');">
+        <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+            <div class="text-center text-white">
+                <h1 class="text-4xl md:text-6xl font-bold">Welcome to Our Website!</h1>
+                <p class="mt-4 text-xl">Your journey to excellence starts here.</p>
+                <button class="mt-6 px-8 py-3 bg-blue-600 text-white rounded-lg">Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-gray-200">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div>
+                <i class="fas fa-cog text-5xl text-blue-500 mb-4"></i>
+                <h3 class="text-xl font-bold">Easy Setup</h3>
+                <p class="mt-2">User-friendly setup in no time.</p>
+            </div>
+            <div>
+                <i class="fas fa-shield-alt text-5xl text-blue-500 mb-4"></i>
+                <h3 class="text-xl font-bold">Secure</h3>
+                <p class="mt-2">End-to-end encryption for your data.</p>
+            </div>
+            <div>
+                <i class="fas fa-headset text-5xl text-blue-500 mb-4"></i>
+                <h3 class="text-xl font-bold">Support</h3>
+                <p class="mt-2">24/7 support for all your needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="https://via.placeholder.com/350x200" alt="Card image" class="w-full">
+                <div class="p-6">
+                    <h5 class="text-2xl font-bold">Service 1</h5>
+                    <p class="mt-2">Description of service 1.</p>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="https://via.placeholder.com/350x200" alt="Card image" class="w-full">
+                <div class="p-6">
+                    <h5 class="text-2xl font-bold">Service 2</h5>
+                    <p class="mt-2">Description of service 2.</p>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="https://via.placeholder.com/350x200" alt="Card image" class="w-full">
+                <div class="p-6">
+                    <h5 class="text-2xl font-bold">Service 3</h5>
+                    <p class="mt-2">Description of service 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto">
+            <div class="aspect-w-16 aspect-h-9">
+                <iframe src="https://www.youtube.com/embed/your_video_id" class="w-full rounded-lg shadow-lg" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-6 mt-10">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 BrandName. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

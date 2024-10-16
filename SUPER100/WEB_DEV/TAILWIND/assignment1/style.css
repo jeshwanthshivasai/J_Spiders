@@ -1,0 +1,16 @@
+.hero-bg {
+    background-image: url('https://via.placeholder.com/1920x600');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.card-custom:hover .card-image {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.footer-custom {
+    background-color: #1f2937;
+    color: #f9fafb;
+}
