@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+        @keyframes eye-move {
+          0%, 100% {
+            transform: translate(0, 0);
+          }
+          50% {
+            transform: translate(5px, 0);
+          }
+        }
+      
+        @keyframes mouth-move {
+          0%, 100% {
+            transform: translateY(0);
+          }
+          50% {
+            transform: translateY(5px);
+          }
+        }
+      
+        .animate-eye-move {
+          animation: eye-move 1s infinite;
+        }
+      
+        .animate-mouth-move {
+          animation: mouth-move 1s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex items-center justify-center h-screen">
+
+        <div class="relative w-40 h-40 rounded-full bg-yellow-300 border-4 border-black">
+            <div class="absolute left-8 top-10 w-8 h-8 bg-white rounded-full border-2 border-black flex items-center justify-center animate-eye-move">
+                <div class="w-3 h-3 bg-black rounded-full"></div>
+            </div>
+            <div class="absolute right-8 top-10 w-8 h-8 bg-white rounded-full border-2 border-black flex items-center justify-center animate-eye-move">
+                <div class="w-3 h-3 bg-black rounded-full"></div>
+            </div>
+            <div id="emoji-mouth" class="absolute bottom-5 w-16 h-8 bg-black rounded-t-full animate-mouth-move"></div>
+        </div>
+    </div>
+    <script>
+        const input = document.getElementById("emoji-input");
+        const mouth = document.getElementById("emoji-mouth");
+        
+        input.addEventListener("input", () => {
+            const length = input.value.length;
+            mouth.classList.remove("bg-black", "bg-red-500", "rounded-t-full", "rounded-full");
+            
+            if (length >= 1 && length <= 5) {
+                mouth.classList.add("bg-red-500", "rounded-full");
+                mouth.style.height = "20px";
+                mouth.style.width = "20px";
+            } else if (length > 5 && length <= 15) {
+                mouth.classList.remove("bg-black");
+                mouth.style.height = "0px";
+            } else if (length > 15 && length <= 25) {
+                mouth.classList.add("bg-black", "rounded-full");
+                mouth.style.height = "20px";
+                mouth.style.width = "20px";
+            } else if (length > 25 && length <= 30) {
+                mouth.classList.add("bg-black", "rounded-t-full");
+                mouth.style.height = "8px";
+                mouth.style.width = "40px";
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+    
+  
